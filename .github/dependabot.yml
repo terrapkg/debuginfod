@@ -5,8 +5,3 @@ updates:
     directory: "/"
     schedule:
       interval: "weekly"
-  # Maintain base Docker image
-  - package-ecosystem: "docker"
-    directory: "/"
-    schedule:
-      interval: "weekly"
