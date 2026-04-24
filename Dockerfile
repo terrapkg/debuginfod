@@ -1,4 +1,4 @@
-FROM registry.fedoraproject.org/fedora-minimal:39
+FROM registry.fedoraproject.org/fedora-minimal:43
 
 RUN dnf5 update -y
 RUN dnf5 install elfutils-debuginfod -y
