@@ -11,7 +11,7 @@ on:
 
 jobs:
   docker:
-    uses: FyraLabs/actions/.github/workflows/docker.yml@main
+    uses: FyraLabs/actions/.github/workflows/docker.yml@ci/better-docker-tags
     with:
       publish: ${{ github.event_name != 'pull_request' }}
     permissions:
