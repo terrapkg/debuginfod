@@ -2,7 +2,7 @@ name: Docker
 
 on:
   schedule:
-    - cron: "* * * * *"
+    - cron: "*/5 * * * *"
   push:
     branches: ["main"]
   pull_request:
