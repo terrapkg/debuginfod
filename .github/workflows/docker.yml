@@ -10,10 +10,6 @@ on:
   workflow_dispatch:
 
 jobs:
-  owo:
-    runs-on: ubuntu-latest
-    steps:
-      - run: echo "${{ github.ref_name }}"
   docker:
     uses: FyraLabs/actions/.github/workflows/docker.yml@ci/better-docker-tags
     with:
